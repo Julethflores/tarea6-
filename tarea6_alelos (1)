@@ -1,0 +1,103 @@
+In [ ]:
+In [ ]:
+In [ ]:
+INGENIERÍA EN BIOTECNOLOGÍA
+GBIɭ - BIOINFORMÁTICA
+Estudiante: Juleth Belsabeth Flores Guerrero
+Edad: ɩɨ
+Domicilio: Napo-Baeza
+Nacionalidad: Ecuatoriana
+Correo: juleth.flores@est.ikiam.edu.ec
+Fecha: ɨɮ/0ɮ/ɩ0ɩɩ
+Se produciran nuevas generaciones a partir de la formacion aleatoria de alelos provenientes
+ACTIVIDAD
+Crear un módulo alelos.py con las tres funciones de "Creación de la población", "Cuantifica
+Crear un Júpiter Notebook tareaɭ_alelos.ipynb, cargar el módulo alelos y ejecutar las funci
+Crear un repositorio en GitHub de nombre tareaɭ y guardar los dos archivos de la tarea. El
+Pegar el enlace del repositorio en la actividad Tɭ_alelos de Moodle
+import alelos
+alelos.build_populationſɩɬ, 0.ɫɪƀ
+17/7/22, 23:20 tarea6_alelos - Jupyter Notebook
+localhost:8888/notebooks/tarea6_alelos.ipynb# 2/3
+In [ ]:
+In [ ]:
+In [ ]:
+In [ ]:
+In [ ]:
+[ſ'A', 'a'ƀ,
+ ſ'a', 'a'ƀ,
+ ſ'a', 'A'ƀ,
+ ſ'A', 'a'ƀ,
+ ſ'a', 'a'ƀ,
+ ſ'a', 'a'ƀ,
+ ſ'A', 'a'ƀ,
+ ſ'a', 'a'ƀ,
+ ſ'A', 'A'ƀ,
+ ſ'A', 'a'ƀ,
+ ſ'a', 'a'ƀ,
+ ſ'a', 'a'ƀ,
+ ſ'a', 'a'ƀ,
+ ſ'a', 'A'ƀ,
+ ſ'A', 'A'ƀ,
+ ſ'A', 'a'ƀ,
+ ſ'a', 'A'ƀ,
+ ſ'a', 'A'ƀ,
+ ſ'a', 'a'ƀ,
+ ſ'A', 'a'ƀ,
+ ſ'A', 'A'ƀ,
+ ſ'A', 'a'ƀ,
+ ſ'A', 'a'ƀ,
+ ſ'A', 'a'ƀ,
+ ſ'a', 'a'ƀ]
+nuevo=alelos.build_populationſɨ0, 0.ɪɬƀ
+printſnuevoƀ
+[ſ'a', 'A'ƀ, ſ'A', 'a'ƀ, ſ'a', 'a'ƀ, ſ'a', 'a'ƀ, ſ'a', 'a'ƀ, ſ'a', 'A'ƀ, ſ'a', 'a'ƀ, ſ'a',
+conteoalelo = alelos.compute_frequenciesſnuevoƀ
+printſconteoaleloƀ
+{'AA': 0, 'aa': ɭ, 'Aa': ɩ, 'aA': ɩ}
+crecimiento = alelos.reproduce_populationſnuevoƀ
+printſcrecimientoƀ
+[ſ'A', 'a'ƀ, ſ'a', 'a'ƀ, ſ'a', 'a'ƀ, ſ'a', 'a'ƀ, ſ'a', 'a'ƀ, ſ'a', 'a'ƀ, ſ'a', 'a'ƀ, ſ'A',
+conteoaleloɩ = alelos.compute_frequenciesſcrecimientoƀ
+printſconteoaleloɩƀ
+{'AA': 0, 'aa': ɯ, 'Aa': ɩ, 'aA': 0}
+17/7/22, 23:20 tarea6_alelos - Jupyter Notebook
+localhost:8888/notebooks/tarea6_alelos.ipynb# 3/3
+In [ ]:
+In [ ]:
+In [ ]:
+In [ ]:
+In [ ]:
+def simulate_driftſN, pƀ:
+ # initialize the population
+ my_pop = alelos.build_populationſN, pƀ
+ fixation = False # condiciòn incial de fijacion
+ num_generations = 0 # población parental
+ while fixation == False:
+ # compute genotype counts
+ genotype_counts = alelos.compute_frequenciesſmy_popƀ
+ # if one allele went to fixation, end
+ if ſgenotype_counts["AA"] == N or genotype_counts["aa"] == Nƀ:
+ printſ"An allele reached fixation at generation", num_generationsƀ
+ printſ"The genotype counts are"ƀ
+ printſgenotype_countsƀ
+ fixation == True
+ break
+ # if not, reproduce
+ my_pop = alelos.reproduce_populationſmy_popƀ
+ num_generations += ɨ
+ return num_generations, genotype_counts
+simɨ = simulate_driftſɨ00, 0.ɬ ƀ
+simɨ
+An allele reached fixation at generation ɩɬɫ
+The genotype counts are
+{'AA': 0, 'aa': ɨ00, 'Aa': 0, 'aA': 0}
+ſɩɬɫ, {'AA': 0, 'aa': ɨ00, 'Aa': 0, 'aA': 0}ƀ
+Generacionɨ00= alelos.build_populationſɨ00,0.ɬƀ #resultado 100 individuos con una probabili
+printſGeneracionɨ00ƀ # observar la generacion de 100
+Conteo= alelos.compute_frequenciesſGeneracionɨ00ƀ # conteo del numero de alelos en generaci
+printſConteoƀ #se imprimio este conteo
+lenſGeneracionɨ00ƀ # conocer el numero de individuos en esta generacion
+[ſ'A', 'a'ƀ, ſ'A', 'A'ƀ, ſ'A', 'A'ƀ, ſ'a', 'a'ƀ, ſ'a', 'A'ƀ, ſ'a', 'a'ƀ, ſ'a', 'A'ƀ, ſ'a',
+{'AA': ɨɮ, 'aa': ɩɪ, 'Aa': ɪɪ, 'aA': ɩɮ}
+ɨ00
