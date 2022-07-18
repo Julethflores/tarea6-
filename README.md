@@ -27,9 +27,12 @@ Lápiz y entrada táctil	La entrada táctil o manuscrita no está disponible par
 # EJECUCION 
 
 En este repositorio se creo nuevas generaciones a traves de la aletoriedad de alelos, que proviene de una madre y un padre, creando nuevos individuos, hasta llegar a la genereacion  100, a traves de  bucles for, tambien se realizó un módulo "alelos", para luego ser ejecutadas en el cuaderno jupyter.
-T6_alelos
+T6_alelos.
 
-En esta actividad debe realizar lo siguiente: 
+En la parte de alelos.py  se creo un módulo llamado "alelos" que contenga las tres funciones de "Creación de la población", "Cuantificación de frecuencias de alelos" y "Creación de la población hijo" y por ultimo, se ejecutó las funciones para la generación 100.
+
+
+
 # ACTIVIDAD DE LA TAREA 6
 Crear un módulo alelos.py con las tres funciones de "Creación de la población", "Cuantificación de frecuencias de alelos" y "Creación de la población hijo". Cada función debe tener una sección de explicación de lo que hace, la explicación de las variables de entrrada y salida.
 Crear un Júpiter Notebook tarea6_alelos.ipynb, cargar el módulo alelos y ejecutar las funciones hasta obtener la generación 100. Asegurarse que este cuaderno de jupyter tenga sus datos personales, texto de explicación del ejercicio y de los resultados. Inserte al menos una imagen (logo de Ikiam). Asegurarse que el cuaderno tiene los resultados de ejecución de los bloques de código.
