@@ -12,7 +12,7 @@ Estudiante
 Baeza
 
 
-##DETALLES DEL EQUIPO
+# DETALLES DEL EQUIPO
 
 
 
