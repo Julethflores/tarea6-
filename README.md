@@ -1,11 +1,16 @@
 # tarea6-
 tarea6
 Este es el repositorio de la tarea 6 de Bioinformatica. #BIOINFORMATICA
+
+
+
 DATOS PERSONALES
 Juleth Belsabeth Flores Guerrero
 Estudiante 
 21 años
 Baeza
+
+
 DETALLES DEL EQUIPO
 Nombre del dispositivo	DESKTOP-61NU5K9
 Procesador	Intel(R) Pentium(R) CPU G4400 @ 3.30GHz   3.30 GHz
