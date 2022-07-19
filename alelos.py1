@@ -4,10 +4,10 @@ importar scipy # para números aleatorios
 def construir_población(N, p):
     " " " cada cromosoma tiene un alelo y N es el numero de individuos
     " " "
-   # En esta funcion se estan creando tuplas con la lista de los alelos A ya segun el numero de individuo
-    población = []
+
+
     for  i  in range(N):    # se crea un bucle for casual con las variables ay A, para ir agregando alelos aleatorios
-                         # al final de cada alelo ao A en construir poblacion
+                
         alelo1 = " A "    
         if  scipy.random.rand () > p: # la probabilidad de tener alelos ay A debe ser mayor a 0.43
             alelo1 = " a "
