@@ -7,7 +7,9 @@ Este es el repositorio de la tarea 6 de Bioinformatica. #BIOINFORMATICA
 # DATOS PERSONALES
 
 Juleth Belsabeth Flores Guerrero
-Estudiante 
+Estudiante
+Biotecnologia
+Sexto semestre
 21 años
 Baeza
 
@@ -29,7 +31,7 @@ Lápiz y entrada táctil	La entrada táctil o manuscrita no está disponible par
 En este repositorio se creo nuevas generaciones a traves de la aletoriedad de alelos, que proviene de una madre y un padre, creando nuevos individuos, hasta llegar a la genereacion  100, a traves de  bucles for, tambien se realizó un módulo "alelos", para luego ser ejecutadas en el cuaderno jupyter.
 T6_alelos.
 
-En la parte de alelos.py  se creo un módulo llamado "alelos" que contenga las tres funciones de "Creación de la población", "Cuantificación de frecuencias de alelos" y "Creación de la población hijo" y por ultimo, se ejecutó las funciones para la generación 100.
+En la parte de alelos.py  se creo un módulo llamado "alelos" que contenga las tres funciones de "Creación de la población" aqui se realiza lo siguiente se debe crear una función de simulación "build.population" importando datos del módulo scipy considerando como tamaño de entrada la población (N) y una variable de salida la probabilidad de tener un alelo "A" o "a"(p). Se crea un listado de vación llamado "población" y para cada elemento dentro del rango "N". , "Cuantificación de frecuencias de alelos" y "Creación de la población hijo" y por ultimo, se ejecutó las funciones para la generación 100.
 
 
 
